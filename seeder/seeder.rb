@@ -13,7 +13,7 @@ pages << {
         "upgrade-insecure-requests" => "1",
     },
     url: "https://www.walmart.com/browse/movies-tv-shows/4096?facet=new_releases:Last+90+Days",
-    fetch_type: "browser",
+    fetch_type: "fullbrowser",
     driver: {
         pre_code: "await page.setViewport({
             width: 1920 + Math.floor(Math.random() * 100),
