@@ -26,7 +26,6 @@ pages << {
     },
     driver: { 
         "name": "scraping walmart",
-        "goto_options": null,
         "stealth": true,
         "enbable_images": false,
     }
