@@ -24,6 +24,8 @@ product['image_url'] = html.at_css('.relative img.db')['src']
 
 product['categories'] = html.css('nav[aria-label=breadcrumb] li a span').collect{|span| span.text}
 
+product['url'] = page['url']
+
 product['_collection'] = 'products'
 
 outputs << product
