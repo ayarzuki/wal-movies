@@ -1,0 +1,25 @@
+exporter_name: walmart_movies_csv
+exporter_type: csv
+collection: products
+start_on_job_done: true
+fields:
+  - header: "gid"
+    path: "_gid"
+  - header: "created_at"
+    path: "_created_at"
+  - header: "title"
+    path: "title"
+  - header: "current_price"
+    path: "current_price"
+  - header: "original_price"
+    path: "original_price"
+  - header: "image_url"
+    path: "image_url"
+  - header: "rating"
+    path: "rating"
+  - header: "review_count"
+    path: "review_count"
+  - header: "url"
+    path: "url"
+  - header: "categories"
+    path: "categories"

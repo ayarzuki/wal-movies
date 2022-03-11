@@ -16,4 +16,6 @@ exporters:
     collection: products
     write_mode: pretty_array
     start_on_job_done: true
+  - file: ./exporters/walmart_movies_csv.yaml
+    disabled: false
     
