@@ -1,4 +1,0 @@
-exporter_name: products_walmart_json.yaml
-exporter_type: json
-collection: products
-write_mode: pretty_array

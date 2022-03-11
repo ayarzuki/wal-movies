@@ -11,5 +11,9 @@ parsers:
     disabled: false
 
 exporters:
-  - file: ./exporters/products_walmart_json.yaml
-    disabled: false
+  - exporter_name: products_walmart-movie_json
+    exporter_type: json
+    collection: products
+    write_mode: pretty_array
+    start_on_job_done: true
+    
