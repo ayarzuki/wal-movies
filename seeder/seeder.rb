@@ -23,5 +23,11 @@ pages << {
     display: {
         "width": 1280,
         "height": 695
+    },
+    driver: { 
+        "name": "scraping walmart",
+        "goto_options": null,
+        "stealth": true,
+        "enbable_images": false,
     }
 }
