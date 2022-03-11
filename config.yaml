@@ -11,7 +11,7 @@ parsers:
     disabled: false
 
 exporters:
-  - exporter_name: products_walmart-movie_json
+  - exporter_name: products_walmart_movie_json
     exporter_type: json
     collection: products
     write_mode: pretty_array
