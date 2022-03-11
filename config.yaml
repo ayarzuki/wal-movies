@@ -11,5 +11,5 @@ parsers:
     disabled: false
 
 exporters:
-  - file: ./exporters/movie_walmart_json.yaml
+  - file: ./exporters/products_walmart_json.yaml
     disabled: false
